@@ -8,7 +8,6 @@ The fork has been modified to support the following:
  * OverlayFS
    The Open Network Loader and runtime environment use OverlayFS.
 
- * Platform Support for the Quanta LB9, Quanta LB9A, and Quanta LY2.
-
+ * Platform Support for the Centec E580
 
 
