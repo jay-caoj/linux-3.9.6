@@ -318,7 +318,17 @@ config DELTA_7448
        help
          This option enables support for the Delta ET-7448BF board
 
+config CENTEC_E580
+        bool "Centec Networks platform with GoldenGate chip"
+        select DEFAULT_UIMAGE
+        select CTC_PLATFORM
+        help
+          This option enables support for centec e580 platform
 
+config CTC_PLATFORM
+        bool "Centec Networks Platform"
+        help
+          This option enables support for centec platform
 
 endif # FSL_SOC_BOOKE
 

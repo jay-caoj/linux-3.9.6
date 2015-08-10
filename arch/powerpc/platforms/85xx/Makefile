@@ -35,3 +35,4 @@ obj-$(CONFIG_SGY_CTS1000) += sgy_cts1000.o
 obj-$(CONFIG_QUANTA_LB)   += quanta_lb.o
 obj-$(CONFIG_DELTA_7448)    += delta_7448.o
 obj-$(CONFIG_ES5652BT1_FLF_ZZ) += es5652bt1_flf_zz.o
+obj-$(CONFIG_CENTEC_E580)  += centec_e580.o
